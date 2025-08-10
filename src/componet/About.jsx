@@ -1,5 +1,7 @@
 import React from "react";
 import img from "../public/assets/my.jpg";
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa6";
 
 function About() {
   return (
@@ -23,6 +25,10 @@ function About() {
           best practices to stay up-to-date with industry trends. My goal is to
           contribute to real-world projects, collaborate with teams, and grow as
           a professional developer.
+          <div className="link flex gap-3 mt-2.5">
+            <a href="https://github.com/Rathodkirtan?tab=repositories" className="border rounded-4xl p-2 border-purple-700"><FaGithub style={{fontSize:"20px"}} target="_black"/></a>
+            <a href="https://www.linkedin.com/in/kirtan-rathod-b13b6a273/" className="border rounded-4xl p-2 border-purple-700" target="_black"><FaLinkedin /></a>
+          </div>
         </p>
         <img
           src={img}
