@@ -26,7 +26,7 @@ function About() {
           contribute to real-world projects, collaborate with teams, and grow as
           a professional developer.
           <div className="link flex gap-3 mt-2.5">
-            <a href="https://github.com/Rathodkirtan?tab=repositories" className="border rounded-4xl p-2 border-purple-700"><FaGithub style={{fontSize:"20px"}} target="_black"/></a>
+            <a href="https://github.com/Rathodkirtan?tab=repositories" className="border rounded-4xl p-2 border-purple-700" target="_black"><FaGithub style={{fontSize:"20px"}} /></a>
             <a href="https://www.linkedin.com/in/kirtan-rathod-b13b6a273/" className="border rounded-4xl p-2 border-purple-700" target="_black"><FaLinkedin /></a>
           </div>
         </p>
