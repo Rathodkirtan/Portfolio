@@ -19,7 +19,7 @@ function Education() {
           <h3 className="text-xl font-semibold">
             Bachelor of Computer Application- BCA
           </h3>
-          <p className="text-gray-600">Maharaja Krishnakumarsinhji Bhavnagar University| 2020 - 2024</p>
+          <p className="text-gray-600">Maharaja Krishnakumarsinhji Bhavnagar University| 2022 - 2025</p>
           <p className="text-gray-700">Percentage:71.76%</p>
         </div>
 
